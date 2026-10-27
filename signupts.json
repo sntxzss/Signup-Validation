@@ -1,0 +1,68 @@
+[
+  {
+    "username": "john_doe",
+    "email": "john.doe@example.com",
+    "age": 28,
+    "password": "SecurePass123!",
+    "address": {
+      "city": "Kyiv",
+      "zip": "03150"
+    },
+    "interests": ["programming", "music", "gaming"]
+  },
+  {
+    "username": "jane_smith",
+    "email": "jane.smith@gmail.com",
+    "age": 34,
+    "password": "MyPassword456!",
+    "address": {
+      "city": "Lviv",
+      "zip": "79000"
+    },
+    "interests": ["reading", "sports", "cooking"]
+  },
+  {
+    "username": "jo",
+    "email": "jo@example.com",
+    "age": 25,
+    "password": "OnlyLetters",
+    "address": {
+      "city": "Odesa",
+      "zip": "65000"
+    },
+    "interests": ["travel"]
+  },
+  {
+    "username": "bob_wilson",
+    "email": "invalid.email@",
+    "age": 45,
+    "password": "PassWithNum123",
+    "address": {
+      "city": "Kharkiv",
+      "zip": "61000"
+    },
+    "interests": ["movies", "tech"]
+  },
+  {
+    "username": "alice_cooper",
+    "email": "alice@example.com",
+    "age": 5,
+    "password": "LongPasswordButNoNumbers",
+    "address": {
+      "city": "Dnipro",
+      "zip": "49000"
+    },
+    "interests": ["art", "music"]
+  },
+  {
+    "username": "charlie_brown",
+    "email": "charlie.brown@domain.com",
+    "age": 31,
+    "password": "NoDigitsHere",
+    "address": {
+      "city": "Donetsk",
+      "zip": "83000"
+    },
+    "interests": ["photography"]
+  }
+]
