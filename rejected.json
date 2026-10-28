@@ -1,0 +1,20 @@
+[
+  {
+    "index": 2,
+    "errors": [
+      "username: String should have at least 3 characters"
+    ]
+  },
+  {
+    "index": 3,
+    "errors": [
+      "email: value is not a valid email address: There must be something after the @-sign."
+    ]
+  },
+  {
+    "index": 4,
+    "errors": [
+      "age: Input should be greater than or equal to 13"
+    ]
+  }
+]

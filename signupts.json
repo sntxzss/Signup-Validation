@@ -64,5 +64,16 @@
       "zip": "83000"
     },
     "interests": ["photography"]
+  },
+  {
+    "username": "david_miller",
+    "email": "david.miller@example.com",
+    "age": "25",
+    "password": "SecurePass789!",
+    "address": {
+      "city": "Zaporizhzhia",
+      "zip": "69000"
+    },
+    "interests": ["sports", "technology"]
   }
 ]

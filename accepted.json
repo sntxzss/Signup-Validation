@@ -1,0 +1,55 @@
+[
+  {
+    "username": "john_doe",
+    "email": "john.doe@example.com",
+    "age": 28,
+    "address": {
+      "city": "Kyiv",
+      "zip": "03150"
+    },
+    "interests": [
+      "programming",
+      "music",
+      "gaming"
+    ]
+  },
+  {
+    "username": "jane_smith",
+    "email": "jane.smith@gmail.com",
+    "age": 34,
+    "address": {
+      "city": "Lviv",
+      "zip": "79000"
+    },
+    "interests": [
+      "reading",
+      "sports",
+      "cooking"
+    ]
+  },
+  {
+    "username": "charlie_brown",
+    "email": "charlie.brown@domain.com",
+    "age": 31,
+    "address": {
+      "city": "Donetsk",
+      "zip": "83000"
+    },
+    "interests": [
+      "photography"
+    ]
+  },
+  {
+    "username": "david_miller",
+    "email": "david.miller@example.com",
+    "age": 25,
+    "address": {
+      "city": "Zaporizhzhia",
+      "zip": "69000"
+    },
+    "interests": [
+      "sports",
+      "technology"
+    ]
+  }
+]

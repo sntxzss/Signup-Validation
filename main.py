@@ -26,6 +26,7 @@ def pass_valid(cls, v):
     return v
 
 
+
 import json
 
 with open("signupts.json", "r") as f:
@@ -34,6 +35,7 @@ with open("signupts.json", "r") as f:
 accepted = []
 rejected = []
 
+#Here comes AI
 for i, signup_data in enumerate(data):
     try:
         signup = SignUp(**signup_data)
@@ -49,3 +51,12 @@ for i, signup_data in enumerate(data):
 print(f"Прийнято: {len(accepted)}, відхилено: {len(rejected)}")
 for entry in rejected:
     print(f"  Заявка {entry['index']}: {', '.join(entry['errors'])}")
+
+accepted_data = [signup.model_dump(exclude={"password"}) for signup in accepted]
+with open("accepted.json", "w") as f:
+    json.dump(accepted_data, f, indent=2)
+
+with open("rejected.json", "w") as f:
+    json.dump(rejected, f, indent=2)
+
+print("\n✅ Файли збережені: accepted.json, rejected.json")
